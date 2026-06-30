@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>END2END Stories</title>
+
+    <meta name="description" content="END2END Stories blends AI, music, animation, and visual storytelling into cinematic short-form worlds filled with unforgettable characters and imagination.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>END2END</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#stories">Stories</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <img src="images/logo.png" class="hero-logo" alt="END2END Logo">
+
+    <p class="tagline">
+        Stories told through music, animation, and imagination.
+    </p>
+
+    <a href="#stories" class="hero-button">
+        Enter The Stories
+    </a>
+
+</section>
+
+<section id="about" class="section-block">
+
+    <h2>About END2END</h2>
+
+    <p>
+        END2END Stories is an independent creative project blending artificial intelligence,
+        music, animation, and visual storytelling into cinematic short-form experiences.
+        Every story begins with a single idea and grows into an original world filled with
+        unforgettable characters, atmosphere, emotion, and imagination.
+    </p>
+
+</section>
+
+<section id="stories" class="section-block">
+
+    <h2>Current Stories</h2>
+
+    <div class="story-grid">
+
+        <div class="card">
+            <h3>Ghost With A Can</h3>
+
+            <p>
+                The origin story of the mysterious graffiti artist known only as
+                the Binary Bomber.
+            </p>
+
+            <a href="ghost-with-a-can.html" class="button">
+                View Story
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Shadow In The Skyline</h3>
+
+            <p>
+                The legend grows as the city begins to notice the marks left behind.
+            </p>
+
+            <a href="shadow-in-the-skyline.html" class="button">
+                View Story
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="section-block contact">
+
+    <h2>Follow END2END</h2>
+
+    <p>
+        TikTok:
+        <a href="https://www.tiktok.com/@end2end.stories" target="_blank">
+            <strong>@end2end.stories</strong>
+        </a>
+    </p>
+
+    <p>
+        Email:
+        <a href="mailto:end2end.art@gmail.com">
+            <strong>end2end.art@gmail.com</strong>
+        </a>
+    </p>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 END2END Stories. One Idea. Endless Impact.
+    </p>
+
+</footer>
+
+</body>
+</html>
