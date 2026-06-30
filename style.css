@@ -1,117 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <title>END2END Stories</title>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0d0d0d;
+    color: #ffffff;
+    line-height: 1.6;
+}
 
-    <meta name="description" content="END2END Stories blends AI, music, animation, and visual storytelling into cinematic short-form worlds filled with unforgettable characters and imagination.">
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #111;
+    border-bottom: 2px solid #222;
+}
 
-    <link rel="stylesheet" href="style.css">
-</head>
+header h1 {
+    color: #ffffff;
+    font-size: 2rem;
+}
 
-<body>
+nav a {
+    color: #00d084;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color .3s;
+}
 
-<header>
-    <h1>END2END</h1>
+nav a:hover {
+    color: #ffffff;
+}
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#stories">Stories</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
 
-<section class="hero">
+.hero-logo {
+    width: 220px;
+    margin-bottom: 30px;
+}
 
-    <img src="images/logo.png" class="hero-logo" alt="END2END Logo">
+.tagline {
+    font-size: 1.3rem;
+    color: #dddddd;
+    margin-bottom: 30px;
+}
 
-    <p class="tagline">
-        Stories told through music, animation, and imagination.
-    </p>
+.cta-button {
+    display: inline-block;
+    background: #00d084;
+    color: #111;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
 
-    <a href="#stories" class="hero-button">
-        Enter The Stories
-    </a>
+.cta-button:hover {
+    background: #00ff99;
+}
 
-</section>
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
 
-<section id="about" class="section-block">
+.story-card {
+    background: #1b1b1b;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
 
-    <h2>About END2END</h2>
+.story-card h3 {
+    margin-bottom: 10px;
+}
 
-    <p>
-        END2END Stories is an independent creative project blending artificial intelligence,
-        music, animation, and visual storytelling into cinematic short-form experiences.
-        Every story begins with a single idea and grows into an original world filled with
-        unforgettable characters, atmosphere, emotion, and imagination.
-    </p>
+.story-card a {
+    color: #00d084;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-</section>
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #111;
+    margin-top: 60px;
+    border-top: 2px solid #222;
+}
 
-<section id="stories" class="section-block">
+footer a {
+    color: #00d084;
+    text-decoration: none;
+}
 
-    <h2>Current Stories</h2>
+.story-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
 
-    <div class="story-grid">
+.story-page h1 {
+    margin-bottom: 25px;
+}
 
-        <div class="card">
-            <h3>Ghost With A Can</h3>
+.story-page video {
+    width: 100%;
+    border-radius: 12px;
+    margin: 30px 0;
+}
 
-            <p>
-                The origin story of the mysterious graffiti artist known only as
-                the Binary Bomber.
-            </p>
-
-            <a href="ghost-with-a-can.html" class="button">
-                View Story
-            </a>
-        </div>
-
-        <div class="card">
-            <h3>Shadow In The Skyline</h3>
-
-            <p>
-                The legend grows as the city begins to notice the marks left behind.
-            </p>
-
-            <a href="shadow-in-the-skyline.html" class="button">
-                View Story
-            </a>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contact" class="section-block contact">
-
-    <h2>Follow END2END</h2>
-
-    <p>
-        TikTok:
-        <a href="https://www.tiktok.com/@end2end.stories" target="_blank">
-            <strong>@end2end.stories</strong>
-        </a>
-    </p>
-
-    <p>
-        Email:
-        <a href="mailto:end2end.art@gmail.com">
-            <strong>end2end.art@gmail.com</strong>
-        </a>
-    </p>
-
-</section>
-
-<footer>
-
-    <p>
-        © 2026 END2END Stories. One Idea. Endless Impact.
-    </p>
-
-</footer>
-
-</body>
-</html>
+.back-button {
+    display: inline-block;
+    margin-top: 40px;
+    color: #00d084;
+    text-decoration: none;
+    font-weight: bold;
+}
